@@ -1,6 +1,6 @@
 # Guild for faucet service
 
-## Submit You Config 
+## Submit You Config
 
 ```json
 {
@@ -22,8 +22,8 @@
     // ... ...
     "faucet": {
         "amount": "5000000uatom,50000000uside",
-        "ip_limit": "1",
-        "address_limit": "10",
+        "ip_limit": "5",
+        "address_limit": "1",
         "fees": "1000uatom"
     }
 }
