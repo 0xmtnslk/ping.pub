@@ -32,10 +32,12 @@ CoinHunters Explorer is a blockchain explorer, wallet, and toolkit for the Cosmo
 
 ## Modernized Pages (December 2025)
 - **Homepage**: Gradient hero, mainnet/testnet tabs, featured chains section
-- **Chain Dashboard**: Modern stats cards with gradient accents
-- **Staking Page**: Gradient header, modern stats display, styled validator table with rank indicators
-- **Governance Page**: Gradient header, styled tabs with proposal counts, modern proposal cards
+- **Chain Dashboard**: Modern stats cards, price chart, wallet section with gradient accents
+- **Staking Page**: Featured/popular validators at top in cards, gradient header with stats, active/inactive tabs, styled validator table
+- **Governance Page**: Gradient header, styled tabs with proposal counts, modern proposal cards with status badges
 - **Blocks Page**: Gradient header with live stats, modern block cards with hover effects
+- **Uptime Page**: Purple/indigo gradient header with avg uptime/healthy/at-risk stats, modernized validator cards with uptime bars
+- **ProposalListItem Component**: Card-based design with gradient accents, status icons, voting buttons
 
 ## Development
 ```bash
