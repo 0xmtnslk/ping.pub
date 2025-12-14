@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd explorer && yarn install && yarn build",
+  "buildCommand": "cd explorer && yarn build-only",
   "outputDirectory": "explorer/dist",
   "installCommand": "cd explorer && yarn install",
   "framework": "vite",
