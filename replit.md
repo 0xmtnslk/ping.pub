@@ -30,14 +30,24 @@ CoinHunters Explorer is a blockchain explorer, wallet, and toolkit for the Cosmo
 - Chain search functionality
 - Multi-language support (i18n)
 
-## Modernized Pages (December 2025)
-- **Homepage**: Gradient hero, mainnet/testnet tabs, featured chains section
-- **Chain Dashboard**: Modern stats cards, price chart, wallet section with gradient accents
-- **Staking Page**: Featured/popular validators at top in cards, gradient header with stats, active/inactive tabs, styled validator table
-- **Governance Page**: Gradient header, styled tabs with proposal counts, modern proposal cards with status badges
-- **Blocks Page**: Gradient header with live stats, modern block cards with hover effects
-- **Uptime Page**: Purple/indigo gradient header with avg uptime/healthy/at-risk stats, modernized validator cards with uptime bars
-- **ProposalListItem Component**: Card-based design with gradient accents, status icons, voting buttons
+## Complete UI Redesign (December 2025)
+
+### Design System
+- **Primary Gradients**: Red (#ED1C24) to Orange (#F06524)
+- **Dark Hero Sections**: slate-900 to slate-800 with glassmorphism effects
+- **Card Styling**: rounded-3xl, shadow-sm, border-slate-100, hover effects
+- **Stats Cards**: Colored gradients (emerald, blue, purple, amber)
+- **Typography**: Bold headings, semibold labels, slate color palette
+
+### Modernized Components
+- **DefaultLayout**: Glassmorphism sidebar, collapsible menus, social links footer
+- **Homepage**: Immersive dark hero with gradient orbs, stats cards, featured chains
+- **Chain Dashboard**: Dark slate hero, price/market stats, modern wallet section, governance proposals
+- **Staking Page**: Gradient header, featured validators cards, styled tables
+- **Governance Page**: Gradient header, styled tabs with counts, modern proposal cards
+- **Uptime Page**: Purple gradient header, uptime bars, validator cards
+- **ProposalListItem**: Card-based design, status badges, voting buttons
+- **ArrayObjectElement**: Modern table styling with hover states and scrollbar
 
 ## Development
 ```bash
