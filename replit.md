@@ -6,7 +6,7 @@ CoinHunters Explorer is a blockchain explorer, wallet, and toolkit for the Cosmo
 - **Logo**: CoinHunters logo (coinhunters-logo.webp)
 - **Colors**: Red (#ED1C24), Orange (#F06524), Blue (#007BFF), Black (#222222), Gray (#666666), Light (#F8F8F8)
 - **Theme**: Single consistent light theme (no dark mode toggle)
-- **Social Links**: Twitter (@AnadoluKripto), Telegram (AnadoluKripto), Website (coinhunterstr.com)
+- **Social Links**: Twitter (@CoinHuntersTR), Telegram (CoinHuntersTR), Website (coinhunterstr.com)
 
 ## Project Structure
 - `explorer/` - Main Vue 3 + Vite application
@@ -29,6 +29,13 @@ CoinHunters Explorer is a blockchain explorer, wallet, and toolkit for the Cosmo
 - Featured blockchains section
 - Chain search functionality
 - Multi-language support (i18n)
+
+## Modernized Pages (December 2025)
+- **Homepage**: Gradient hero, mainnet/testnet tabs, featured chains section
+- **Chain Dashboard**: Modern stats cards with gradient accents
+- **Staking Page**: Gradient header, modern stats display, styled validator table with rank indicators
+- **Governance Page**: Gradient header, styled tabs with proposal counts, modern proposal cards
+- **Blocks Page**: Gradient header with live stats, modern block cards with hover effects
 
 ## Development
 ```bash
