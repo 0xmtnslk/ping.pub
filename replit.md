@@ -32,6 +32,11 @@ CoinHunters Explorer is a blockchain explorer, wallet, and toolkit for the Cosmo
 
 ## Complete UI Redesign (December 2025)
 
+### Navigation System
+- **Top Navigation**: Horizontal navbar with logo, chain profile, social links, search, wallet
+- **Chain Tabs**: Secondary tab bar appears only on chain pages (Dashboard, Governance, Staking, Blocks, Transactions, Uptime)
+- **No Sidebar**: Clean full-width layout
+
 ### Design System
 - **Primary Gradients**: Red (#ED1C24) to Orange (#F06524)
 - **Dark Hero Sections**: slate-900 to slate-800 with glassmorphism effects
@@ -40,8 +45,8 @@ CoinHunters Explorer is a blockchain explorer, wallet, and toolkit for the Cosmo
 - **Typography**: Bold headings, semibold labels, slate color palette
 
 ### Modernized Components
-- **DefaultLayout**: Glassmorphism sidebar, collapsible menus, social links footer
-- **Homepage**: Immersive dark hero with gradient orbs, stats cards, featured chains
+- **DefaultLayout**: Top horizontal navbar with chain-specific tabs
+- **Homepage**: Centered hero with stats, Mainnet/Testnet tabs, no Featured Chains
 - **Chain Dashboard**: Dark slate hero, price/market stats, modern wallet section, governance proposals
 - **Staking Page**: Gradient header, featured validators cards, styled tables
 - **Governance Page**: Gradient header, styled tabs with counts, modern proposal cards
