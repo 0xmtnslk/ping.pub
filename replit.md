@@ -66,6 +66,23 @@ cd explorer && yarn build
 ```
 
 ## Deployment
-Static site deployment:
-- Build: `cd explorer && yarn build`
-- Public directory: `explorer/dist`
+
+### Vercel Deployment
+The project is configured for Vercel deployment with `vercel.json`:
+- **Build Command**: `cd explorer && yarn build-only`
+- **Output Directory**: `explorer/dist`
+- **Install Command**: `cd explorer && yarn install`
+- **Framework**: Vite
+- **SPA Rewrites**: All routes redirect to `/index.html`
+
+Steps to deploy on Vercel:
+1. Push repository to GitHub
+2. Import project in Vercel
+3. Vercel will automatically detect `vercel.json` configuration
+4. Deploy!
+
+### Manual Build
+```bash
+cd explorer && yarn build-only
+```
+Output: `explorer/dist/`
