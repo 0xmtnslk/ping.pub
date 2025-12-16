@@ -68,18 +68,20 @@ cd explorer && yarn build
 ## Deployment
 
 ### Vercel Deployment
-The project is configured for Vercel deployment with `vercel.json`:
-- **Build Command**: `cd explorer && yarn build-only`
-- **Output Directory**: `explorer/dist`
-- **Install Command**: `cd explorer && yarn install`
+The project is configured for Vercel deployment with `explorer/vercel.json`:
+- **Root Directory**: `explorer` (set in Vercel Dashboard)
+- **Build Command**: `yarn build-only`
+- **Output Directory**: `dist`
+- **Install Command**: `yarn install`
 - **Framework**: Vite
 - **SPA Rewrites**: All routes redirect to `/index.html`
 
 Steps to deploy on Vercel:
 1. Push repository to GitHub
 2. Import project in Vercel
-3. Vercel will automatically detect `vercel.json` configuration
-4. Deploy!
+3. **Important**: In Project Settings → General, set **Root Directory** to `explorer`
+4. Vercel will automatically detect `vercel.json` configuration
+5. Deploy!
 
 ### Manual Build
 ```bash

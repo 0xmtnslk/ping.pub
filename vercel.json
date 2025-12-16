@@ -1,9 +1,0 @@
-{
-  "buildCommand": "cd explorer && yarn build-only",
-  "outputDirectory": "explorer/dist",
-  "installCommand": "cd explorer && yarn install",
-  "framework": "vite",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
